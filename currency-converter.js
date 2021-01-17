@@ -37,7 +37,7 @@ const convertCurrency = async (fromCurrency, toCurrency, amount) => {
 }
 
 // call convert currency to get meaningful data
-convertCurrency('USD', 'EUR', 10000)
+convertCurrency('USD', 'KRW', 1000)
     .then((message) => {
         console.log(message);
     }).catch((error) => {
